@@ -29,7 +29,7 @@
           		&nbsp;&nbsp;&nbsp;
           		<a class="redred" href="/david/">David’s Story</a>
           		&nbsp;&nbsp;&nbsp;
-          		<a class="redred" href="/#donate">Donate</a>
+          		<a class="redred" href="/cursinho/colabore/">Donate</a>
         	</div>
       </div>
     </nav>
@@ -63,11 +63,22 @@
 
 				<div class="sharing">
 					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-						{% include icons/social-media.html social_icon="facebook" %} Visit us on Facebook
+						{% include icons/social-media.html social_icon="facebook" %}
+					</a>
+					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
+						{% include icons/social-media.html social_icon="twitter" %}
+					</a>
+					<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
+						{% include icons/social-media.html social_icon="youtube" %}
 					</a>
 				</div>
 			</div>
 		</footer>
+		<p class="copyright">
+			<a href="https://cloudcannon.com/">
+				Template by CloudCannon
+			</a>
+		</p>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			$('a[href*=\\#]').on('click', function(event){

@@ -1,22 +1,22 @@
 # ----
 # Site
 
-title: The David J. Kabakow Foundation
-url: davidjkabakowfoundation.org
-baseurl: davidjkabakowfoundation.org
+title: Cause Template
+url: https://clean-oryx.cloudvent.net
+baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: The David J. Kabakow Foundation was established to raise funds to support research and awareness of Haemophagocytic Lymphohistiocytosis (HLH) and to promote education in the medical community.
+description: Jekyll template with example content for a not-for-profit organisation.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: The David J. Kabakow Foundation
+  name: Cause Template
   links:
-    - https://www.facebook.com/David-J-Kabakow-Foundation-109016067907837
+    - https://github.com/CloudCannon/cause-jekyll-template
 
 # -----
 # Build
