@@ -1,0 +1,103 @@
+---
+layout: default
+title: The Sheep Vote
+---
+    <style>
+        a {
+            text-decoration: none !important;
+        }
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .card {
+            box-shadow: 0 0 30px rgb(180, 180, 180);
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .image {
+            height: 50%;
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        .land-p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        .center {
+            text-align: center;
+        }
+        .red {
+            background-color: #f1ac2de3;
+        }
+        .dark-blue {
+            background-color: #002642;
+        }
+
+	.med-blue{
+	    background-color: #56b1f5;
+	}
+        .btn {
+            display: inline-block;
+            padding: 15px 20px;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 1em;
+            font-weight: 700;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .logo {
+            width: 130px;
+            height: 130px;
+        }
+    </style>
+<body>
+<header>
+	<div class="container">
+		<div class="column">
+			<div>
+				<h1 class="editable">Nossos cursos</h1>
+				<p class="editable">Cada matéria é dividida por capítulo e possui um resumo do conteúdo discutido durante o ano nos cursinhos pré-vestibulares, recomendamos o acompanhamento dos capítulos com base no desenvolvimento das aulas, já que a forma que o material foi organizado na plataforma pode estar estruturado de forma diferente do planejamento das aulas dos professores. </p>
+			</div>
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/3.png" alt="">
+		</div>
+	</div>
+</header>
+    <div class="wrap">
+        <div class="card">
+            <img class="image" src="{{ site.baseurl }}/images/materias/mat.png">
+            <div class="content">
+                <p class="center">
+                    <a href="" class="red btn">Matemática</a>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="{{ site.baseurl }}/images/materias/fis.png">
+            <div class="content">
+                <p class="center">
+                    <a href="" class="red btn">Física</a>
+                </p>
+            </div>
+	</div>
+	<div class="card">
+            <img class="image" src="{{ site.baseurl }}/images/materias/qui.png">
+            <div class="content">
+                <p class="center">
+                    <a href="" class="red btn">Química</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

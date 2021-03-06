@@ -22,10 +22,17 @@
 	</head>
 	<body>
 		<nav>
-			<div class="container">
-				<a href="{{ site.baseurl }}">{% include logo.html %}</a>
-			</div>
-		</nav>
+      		<div class="container header">
+        		<a href="{{ site.baseurl }}/">{% include logo.html %}</a>
+        		<div style="float: right">
+          		<a class="redred" href="/hlh/">About HLH</a>
+          		&nbsp;&nbsp;&nbsp;
+          		<a class="redred" href="/david/">David’s Story</a>
+          		&nbsp;&nbsp;&nbsp;
+          		<a class="redred" href="/cursinho/colabore/">Donate</a>
+        	</div>
+      </div>
+    </nav>
 		<div class="content">
 			{{ content }}
 		</div>
