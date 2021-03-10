@@ -1,9 +1,13 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	color: #333;
 	min-width: 380px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Merriweather', serif;
 }
 
 img {
@@ -34,10 +38,14 @@ h3 {
 	margin: 20px 0 20px 0;
 }
 
-p {
+p, li {
 	font-size: 1.3em;
 	line-height: 1.4em;
 	color: #888;
+}
+
+li {
+	
 }
 
 nav {
@@ -53,6 +61,7 @@ nav a {
 	color: #FFF;
 	position: relative;
 	top: 18px;
+	font-weight: bold;
 }
 
 nav a:link, nav a:visited {
@@ -105,7 +114,7 @@ form {
 	padding: 15px 40px;
 	box-sizing: content-box;
 	font-size: 1em;
-	font-weight: 100;
+	font-weight: regular;
 }
 
 .button a, input[type="submit"] {
