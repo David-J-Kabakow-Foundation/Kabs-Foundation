@@ -41,11 +41,26 @@ p {
 }
 
 nav {
-	padding: 30px 0;
-	svg {
-		fill: $brand-color;
-		height: 35px;
-	}
+	padding: 0;
+	background-color: $brand-color;
+}
+
+nav .container {
+	height: 60px;
+}
+
+nav a {
+	color: #FFF;
+	position: relative;
+	top: 18px;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+  text-decoration: underline;
 }
 
 section {
@@ -109,4 +124,8 @@ form {
 	&:hover {
 		background: darken($brand-color, 5%);
 	}
+}
+
+#logo img {
+	margin-top: 0;
 }
