@@ -196,7 +196,6 @@ footer {
 	}
 
 	p {
-		margin: 0;
 		padding: 0;
 	}
 
@@ -222,16 +221,11 @@ footer {
 	.container {
 		@media #{$desktop} {
 			display: flex;
-			align-items: center;
 		}
 		div {
-			@media #{$desktop} {
-				width: 100%;
-				margin: 0;
-			}
-			margin: 20px 0;
+			margin: 20px auto;
 			box-sizing: content-box;
-			padding: 0 25px;
+			padding: 0;
 
 		}
 	}
