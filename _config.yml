@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: The David J. Kabakow Foundation
+title: David J. Kabakow Foundation
 url: https://davidjkabakowfoundation.org
 baseurl:
 google_analytics_key:
@@ -14,7 +14,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: The David J. Kabakow Foundation
+  name: David J. Kabakow Foundation
   links:
     - https://www.facebook.com/David-J-Kabakow-Foundation-109016067907837
 
