@@ -56,6 +56,10 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+a.currentpage:link, a.currentpage:visited {
+  text-decoration: underline;
+}
+
 nav {
 	padding: 0;
 	background-color: $brand-color;
