@@ -46,6 +46,7 @@ p, li {
 
 a {
 	color: $brand-color;
+	font-weight: bold;
 }
 
 a:link, a:visited {
@@ -76,7 +77,6 @@ nav a {
 	color: #FFF;
 	position: relative;
 	top: 18px;
-	font-weight: bold;
 }
 
 section {
