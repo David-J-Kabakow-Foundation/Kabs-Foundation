@@ -4,7 +4,7 @@
 title: David J. Kabakow Foundation
 url: https://davidjkabakowfoundation.org
 baseurl:
-google_analytics_key:
+google_analytics_key: G-CCNQDJFF6J
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
