@@ -3,7 +3,6 @@ html, body {
 	margin: 0;
 	font-family: 'Manrope', sans-serif;
 	color: #333;
-	min-width: 375px;
 }
 
 h1, h2, h3, h4 {
@@ -70,13 +69,29 @@ nav {
 }
 
 nav .container {
-	height: 60px;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 10px 22px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 nav a {
 	color: #FFF;
-	position: relative;
-	top: 18px;
+	display: inline-block;
+}
+
+@media (max-width: 480px) {
+	nav .container {
+		gap: 8px 16px;
+	}
+
+	nav a {
+		font-size: 0.95em;
+	}
 }
 
 section {
@@ -152,5 +167,5 @@ form {
 }
 
 .content {
-	padding-top: 120px;
+	padding-top: 140px;
 }
