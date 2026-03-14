@@ -74,7 +74,6 @@ nav .container {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 10px 22px;
 	padding-top: 12px;
 	padding-bottom: 12px;
 }
@@ -82,15 +81,13 @@ nav .container {
 nav a {
 	color: #FFF;
 	display: inline-block;
+	margin: 0 11px;
 }
 
 @media (max-width: 480px) {
-	nav .container {
-		gap: 8px 16px;
-	}
-
 	nav a {
 		font-size: 0.95em;
+		margin: 0 7px;
 	}
 }
 
