@@ -76,7 +76,7 @@ a.currentpage:link, a.currentpage:visited {
 }
 
 nav {
-	padding: 0 env(safe-area-inset-right, 0px) 0 env(safe-area-inset-left, 0px);
+	padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) 0 env(safe-area-inset-left, 0px);
 	background-color: $brand-color;
 	position: fixed;
 	top: 0;
@@ -95,7 +95,7 @@ nav .container {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding-top: env(safe-area-inset-top, 0px);
+	padding-top: 0;
 	padding-bottom: 0;
 	box-sizing: border-box;
 	gap: 0;
@@ -188,5 +188,5 @@ form {
 }
 
 .content {
-	padding-top: 140px;
+	padding-top: calc(140px + env(safe-area-inset-top, 0px));
 }
